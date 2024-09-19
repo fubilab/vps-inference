@@ -34,8 +34,6 @@ cmake --build . --config Release
 ```
 
 ## Prepare model and input data
-
-## Prepare serialized model
 When a new model has been trained, serialize the model before using it during the inference.
 Replace [model] and [test_image] with your data.
 ```
