@@ -1,0 +1,5 @@
+opencv-3.4.2/
+libtorch/
+dsacstar/
+build/
+__pycache__
