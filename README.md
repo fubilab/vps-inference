@@ -37,9 +37,9 @@ cmake --build . --config Release
 When a new model has been trained, serialize the model before using it during the inference.
 Replace [model] and [test_image] with your data.
 ```
-python serialize.py --tiny [model].net [test_image].png
+python serialize.py [model].net [test_image].png
 ```
-The script generates a serialized model `traced_model.pt`. Copy this file to the `build` directory to use it for inference.
+The script generates a serialized model `traced_model.pt` in the `build` directory.
 
 ### Sample data
 You may use the files `traced_model.pt` and `1721396597.png` in the `sample_data` directory to test inference. Simply copy them to the `build` directory.

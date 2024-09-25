@@ -3,3 +3,4 @@ libtorch/
 dsacstar/
 build/
 __pycache__
+traced_model.pt
